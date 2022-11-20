@@ -1,0 +1,47 @@
+/*-----PRESET--------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    background-image: linear-gradient(135deg, #dbf1f3 25%, transparent 25%), linear-gradient(225deg, #e3f7f8 25%, transparent 25%), linear-gradient(45deg, #effaff 25%, transparent 25%), linear-gradient(315deg, #ffffff 25%, #e2f5fd 25%);
+    background-position: 4px 0, 4px 0, 0 0, 0 0;
+    background-size: 4px 4px;
+    background-repeat: repeat;
+
+    width: 100%;
+    min-height: 100vh;
+}
+
+/*-----PROJETO--------*/
+
+.quadrado {
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(69, 89, 116);
+}
+
+.grid {
+    display: flex;
+    width: 650px;
+    height: 650px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+    padding: 5px;
+    color: #4b6b7e;
+}
+
+.mole {
+    background-image: url('mole.jpg');
+    background-size: cover;
+}
